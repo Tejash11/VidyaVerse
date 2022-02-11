@@ -9,6 +9,7 @@ import android.widget.TextView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.app.progresviews.ProgressWheel;
+import com.example.vidyaverse.R;
 
 import java.util.ArrayList;
 
@@ -45,8 +46,7 @@ public class Attendance_Adapter extends RecyclerView.Adapter<Attendance_Adapter.
     // with the inflation of the card layout
     // as an item for the RecyclerView.
     @Override
-    public MyView onCreateViewHolder(ViewGroup parent,
-                                     int viewType)
+    public MyView onCreateViewHolder(ViewGroup parent,int viewType)
     {
 
         // Inflate item.xml using LayoutInflator

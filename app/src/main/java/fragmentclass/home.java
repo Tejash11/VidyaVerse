@@ -28,7 +28,12 @@ import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
 
+import customadapters.home_firebasecustomadapter;
+import customadapters.task_custom_adapter;
+import modelclass.model;
 import modelclass.student_info_model;
+import modelclass.subject_model;
+import modelclass.task_model;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -251,10 +256,10 @@ public class home extends Fragment {
                 public void onClick(View v) {
 
 
-                    AppCompatActivity activity = (AppCompatActivity) v.getContext();
-                    Fragment myFragment = new gururewards();
-                    //myFragment.setArguments(bundle_addsubject);
-                    activity.getSupportFragmentManager().beginTransaction().replace(R.id.fragment, myFragment).addToBackStack(null).commit();
+//                    AppCompatActivity activity = (AppCompatActivity) v.getContext();
+//                    Fragment myFragment = new gururewards();
+//                    //myFragment.setArguments(bundle_addsubject);
+//                    activity.getSupportFragmentManager().beginTransaction().replace(R.id.fragment, myFragment).addToBackStack(null).commit();
 
 
 

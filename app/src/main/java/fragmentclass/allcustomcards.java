@@ -65,6 +65,7 @@ public class allcustomcards extends Fragment {
         }
     }
 
+    public allcustomcards_custom_adapter adapter;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {

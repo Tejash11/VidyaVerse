@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.VidyaVerse">
-        <activity android:name=".activityclass.gradelists"></activity>
+        <activity android:name=".activityclass.FinalResult"></activity>
+        <activity android:name=".activityclass.DashboardActivity" />
+        <activity android:name=".activityclass.Questions_n_Answers" />
+        <activity android:name=".activityclass.gradelists" />
         <activity android:name=".activityclass.login" />
         <activity android:name=".activityclass.entry2" />
         <activity android:name=".activityclass.entry1" />

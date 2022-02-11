@@ -16,6 +16,7 @@ import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.vidyaverse.R;
+import com.example.vidyaverse.activityclass.DashboardActivity;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
 import com.google.firebase.database.DataSnapshot;
@@ -26,7 +27,10 @@ import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
 
+import modelclass.Quizmodal;
 import modelclass.task_model;
+
+import static fragmentclass.quiz_info.quizModals;
 
 public class task_custom_adapter extends FirebaseRecyclerAdapter<task_model, task_custom_adapter.myviewholder> {
 
@@ -143,7 +147,7 @@ public class task_custom_adapter extends FirebaseRecyclerAdapter<task_model, tas
                         reference.addValueEventListener(new ValueEventListener() {
                             @Override
                             public void onDataChange(@NonNull DataSnapshot snapshot) {
-                                QuizModal quizmodel = snapshot.getValue(QuizModal.class);
+                                Quizmodal quizmodel = snapshot.getValue(Quizmodal.class);
                                 assert quizmodel != null;
                                 String question = quizmodel.getQuestion();
                                 String option1 = quizmodel.getOption1();
@@ -154,7 +158,7 @@ public class task_custom_adapter extends FirebaseRecyclerAdapter<task_model, tas
 
                                 //Toast.makeText(context, question, Toast.LENGTH_SHORT).show();
 
-                                quizModals.add(new QuizModal(question, option1, option2, option3, option4, answer));
+                                quizModals.add(new Quizmodal(question, option1, option2, option3, option4, answer));
 
                             }
 
@@ -186,15 +190,15 @@ public class task_custom_adapter extends FirebaseRecyclerAdapter<task_model, tas
                 {
                     Toast.makeText(context, "assignment on developement", Toast.LENGTH_SHORT).show();
 
-                    Intent i = new Intent(context, dinoassist.class);
-                    context.startActivity(i);
+//                    Intent i = new Intent(context, dinoassist.class);
+//                    context.startActivity(i);
                 }
                 else if(model.getType().equals("gamequizfly"))
                 {
                     Toast.makeText(context, "assignment on developement", Toast.LENGTH_SHORT).show();
 
-                    Intent i = new Intent(context, flyhigh.class);
-                    context.startActivity(i);
+//                    Intent i = new Intent(context, flyhigh.class);
+//                    context.startActivity(i);
                 }
 
 

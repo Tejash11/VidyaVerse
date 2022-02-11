@@ -17,6 +17,7 @@ import com.example.vidyaverse.R;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
 
+import fragmentclass.allsubjects;
 import modelclass.subject_model;
 
 public class subjectname_custom_adapter extends FirebaseRecyclerAdapter<subject_model,subjectname_custom_adapter.myviewholder> {

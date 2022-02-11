@@ -7,6 +7,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.vidyaverse.R;
+
 public class home_viewholder extends RecyclerView.ViewHolder {
 
     public ImageView subjectimage;

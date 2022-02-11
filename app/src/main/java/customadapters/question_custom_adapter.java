@@ -19,6 +19,10 @@ import com.example.vidyaverse.activityclass.MainActivity;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
+import modelclass.Quizmodal;
+
+import static fragmentclass.quiz_info.quizModals;
+
 public class question_custom_adapter extends RecyclerView.Adapter<question_custom_adapter.myviewholder> {
 
     Context context;
@@ -117,7 +121,7 @@ public class question_custom_adapter extends RecyclerView.Adapter<question_custo
                     }
                     else
                     {
-                        quizModals.add(new QuizModal(holder.question.getText().toString(), holder.option1.getText().toString(), holder.option2.getText().toString(), holder.option3.getText().toString(), holder.option4.getText().toString(), holder.correctans.getText().toString()));
+                        quizModals.add(new Quizmodal(holder.question.getText().toString(), holder.option1.getText().toString(), holder.option2.getText().toString(), holder.option3.getText().toString(), holder.option4.getText().toString(), holder.correctans.getText().toString()));
 
                         holder.question.setEnabled(false);
                         holder.option1.setEnabled(false);

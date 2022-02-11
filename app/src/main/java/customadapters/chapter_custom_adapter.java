@@ -11,9 +11,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.vidyaverse.R;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
 
+import fragmentclass.viewchapter;
 import modelclass.chapter_model;
 
 public class chapter_custom_adapter extends FirebaseRecyclerAdapter<chapter_model,chapter_custom_adapter.myviewholder> {
