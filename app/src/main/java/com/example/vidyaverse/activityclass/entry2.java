@@ -20,9 +20,9 @@ public class entry2 extends AppCompatActivity {
         nextbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                /*Intent i = new Intent(Entry2.this, login.class);
+                Intent i = new Intent(entry2.this, login.class);
                 startActivity(i);
-                finish();*/
+                finish();
             }
         });
 
