@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.VidyaVerse">
-        <activity android:name=".activityclass.FinalResult"></activity>
+        <activity android:name=".flyhigh"></activity>
+        <activity android:name=".dinoassist" />
+        <activity android:name=".activityclass.FinalResult" />
         <activity android:name=".activityclass.DashboardActivity" />
         <activity android:name=".activityclass.Questions_n_Answers" />
         <activity android:name=".activityclass.gradelists" />

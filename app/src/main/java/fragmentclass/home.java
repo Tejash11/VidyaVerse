@@ -1,5 +1,6 @@
 package fragmentclass;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -18,6 +19,8 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.example.vidyaverse.R;
+import com.example.vidyaverse.dinoassist;
+import com.example.vidyaverse.flyhigh;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -98,23 +101,22 @@ public class home extends Fragment {
 
         TextView drag = (TextView) v.findViewById(R.id.draggame);
         TextView bird = (TextView) v.findViewById(R.id.birdgame);
+       drag.setOnClickListener(new View.OnClickListener() {
+           @Override
+            public void onClick(View view) {
+              Intent i = new Intent(getContext(), dinoassist.class);
+              startActivity(i);
+          }
+     });
 
-//        drag.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Intent i = new Intent(getContext(), dinoassist.class);
-//                startActivity(i);
-//            }
-//        });
-//
-//
-//        bird.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Intent i = new Intent(getContext(), flyhigh.class);
-//                startActivity(i);
-//            }
-//        });
+
+      bird.setOnClickListener(new View.OnClickListener() {
+          @Override
+          public void onClick(View view) {
+              Intent i = new Intent(getContext(), flyhigh.class);
+              startActivity(i);
+          }
+      });
 
         TextView name = (TextView) v.findViewById(R.id.name);
         TextView grade = (TextView) v.findViewById(R.id.grade);
