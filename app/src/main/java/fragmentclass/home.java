@@ -1,6 +1,5 @@
 package fragmentclass;
 
-import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -143,18 +142,19 @@ public class home extends Fragment {
                 dr.openDrawer(GravityCompat.START);
             }
         });
-//        LinearLayout viewmodel = (LinearLayout) v.findViewById(R.id.dviewmodel);
-//        viewmodel.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                AppCompatActivity activity = (AppCompatActivity) v.getContext();
-//                Fragment myFragment = new Dmodelview();
-//                //myFragment.setArguments(bundle_addsubject);
-//                activity.getSupportFragmentManager().beginTransaction().replace(R.id.fragment, myFragment).addToBackStack(null).commit();
-//
-//
-//            }
-//        });
+
+        LinearLayout viewmodel = (LinearLayout) v.findViewById(R.id.dviewmodel);
+        viewmodel.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                AppCompatActivity activity = (AppCompatActivity) v.getContext();
+                Fragment myFragment = new Dmodelview();
+                //myFragment.setArguments(bundle_addsubject);
+                activity.getSupportFragmentManager().beginTransaction().replace(R.id.fragment, myFragment).addToBackStack(null).commit();
+
+
+            }
+        });
 
 
         if(studentcode.equals("100"))
