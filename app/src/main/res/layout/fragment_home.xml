@@ -359,7 +359,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:text="EduBuddy Special"
+                        android:text="VidyaVerse Special"
                         android:textSize="20sp"
                         android:layout_weight="1"
                         android:fontFamily="@font/poppins"
