@@ -159,7 +159,7 @@
                         android:layout_weight="1"
                         android:gravity="center"
                         android:id="@+id/headerbutton"
-                        android:text="Redeem your EduCoins"
+                        android:text="Redeem your VidyaCoins"
                         android:textColor="#FFFFFF"
                         android:fontFamily="@font/poppins"
                         android:textStyle="bold"
