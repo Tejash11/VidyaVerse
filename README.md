@@ -22,5 +22,5 @@ Even though e-learning has become a new normal for us, faculties and students ar
 * Firebase / MongoDB
 
 # **Images**
-<img src="https://github.com/Tejash11/VidyaVerse/assets/85128841/4777e48d-d4be-49ba-ba54-2e1ad88f318f"  width="60%" height="60%">
+<img src="https://github.com/Tejash11/VidyaVerse/assets/85128841/4777e48d-d4be-49ba-ba54-2e1ad88f318f"  width="100%" height="100%">
 
