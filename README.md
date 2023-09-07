@@ -22,7 +22,8 @@ Even though e-learning has become a new normal for us, faculties and students ar
 * Firebase / MongoDB
 
 # **Images**
-<img src="https://github.com/Tejash11/VidyaVerse/assets/85128841/4777e48d-d4be-49ba-ba54-2e1ad88f318f"  width="30%" height="30%"/> | <img src="https://github.com/Tejash11/VidyaVerse/assets/85128841/6e00ee12-433e-4bde-aed0-7892b5d620c4"  width="30%" height="30%"/>
+<img src="https://github.com/Tejash11/VidyaVerse/assets/85128841/4777e48d-d4be-49ba-ba54-2e1ad88f318f"  width="30%" height="30%"/> 
+<img src="https://github.com/Tejash11/VidyaVerse/assets/85128841/6e00ee12-433e-4bde-aed0-7892b5d620c4"  width="30%" height="30%"/>
 <img src="https://github.com/Tejash11/VidyaVerse/assets/85128841/481dc7b0-a9b3-48a0-8bcc-71422d4fef2b"  width="30%" height="30%"/> 
-<img src="https://github.com/Tejash11/VidyaVerse/assets/85128841/1e5b16cc-bc24-4372-a175-65fc33f6f68e"  width="50%" height="40%"/>
+<img src="https://github.com/Tejash11/VidyaVerse/assets/85128841/1e5b16cc-bc24-4372-a175-65fc33f6f68e"  width="60%" height="50%"/>
 
