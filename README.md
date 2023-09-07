@@ -21,4 +21,10 @@ Even though e-learning has become a new normal for us, faculties and students ar
 * Android Studio
 * Firebase / MongoDB
 
-![subjects (1)](https://github.com/Tejash11/VidyaVerse/assets/85128841/4777e48d-d4be-49ba-ba54-2e1ad88f318f)
+# **Images**
+<img
+  src="https://github.com/Tejash11/VidyaVerse/assets/85128841/4777e48d-d4be-49ba-ba54-2e1ad88f318f"
+  alt="Alt text"
+  title="Optional title"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
+
